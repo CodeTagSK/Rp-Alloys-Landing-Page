@@ -61,7 +61,7 @@ body {
 }
 
 .rp-main {
-	margin: 110px 0;
+	margin: 110px 0 0 0;
 }
 
 .rp-main-hero-block {
@@ -138,9 +138,17 @@ body {
 
 .rp-main-partners-sec > img {
 	position: absolute;
-	bottom: 0;
-	left: 0;
+
 	height: 700px;
+}
+
+.rp-main-partners-sec-bg-2 {
+	left: 0;
+	bottom: 0;
+}
+.rp-main-partners-sec-bg-1 {
+	right: 0;
+	top: 0;
 }
 
 .rp-main-partners-sec-cards {
@@ -166,4 +174,316 @@ body {
 	font-size: 30px;
 	line-height: 43px;
 	color: var(--primary);
+}
+
+.rp-main-industry-sec > h2 {
+	color: white;
+	text-shadow: -1px -1px 0 #353535, 1px -1px 0 #353535, -1px 1px 0 #353535,
+		1px 1px 0 #353535;
+	font-weight: 600;
+	font-size: 90px;
+	line-height: 85px;
+	letter-spacing: -0.02em;
+	height: 42px;
+	overflow: hidden;
+}
+.rp-main-industry-sec > h3 {
+	color: var(--primary);
+	font-weight: 600;
+	font-size: 90px;
+	line-height: 85px;
+	letter-spacing: -0.02em;
+}
+
+.rp-main-industry-sec-plus {
+	margin-top: 29px;
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 5px;
+	color: #9198a0;
+}
+.rp-main-industry-sec-plus-text {
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 5px;
+	color: #9198a0;
+}
+
+.rp-main-industry-sec-info-blocks {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 61px;
+	row-gap: 191px;
+}
+
+.rp-main-industry-sec-info-block-1 {
+	display: grid;
+	grid-template-columns: 90px 1fr;
+	gap: 34px;
+}
+
+.rp-main-industry-sec-info-block-1 > div > h4 {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 25px;
+	letter-spacing: -0.02em;
+	color: var(--primary);
+	margin-bottom: 14px;
+}
+.rp-main-industry-sec-info-block-1 > div > p {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 29px;
+	color: #000000;
+}
+
+.rp-main-infra-sec {
+	background: url("./assets/infrabg.svg");
+	background-color: black;
+	height: 1050px;
+	padding: 240px 0px 240px 380px;
+	color: var(--secondary);
+}
+
+.rp-main-infra-sec-heading > p:first-child {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: -0.02em;
+	margin-bottom: 33px;
+}
+.rp-main-infra-sec-heading > h2 {
+	font-weight: 500;
+	font-size: 70px;
+	line-height: 85px;
+	letter-spacing: -0.02em;
+	margin-bottom: 19px;
+}
+.rp-main-infra-sec > p:first-child {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	letter-spacing: -0.02em;
+	margin-bottom: 33px;
+}
+
+.rp-main-infra-sec-two-col {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.rp-main-infra-sec-two-col-circle {
+	width: 188px;
+	height: 188px;
+	border-radius: 50%;
+	border: 1px solid var(--secondary);
+	display: grid;
+	place-items: center;
+}
+
+.rp-main-infra-sec-two-col-circle > div {
+	width: 25px;
+	height: 32px;
+	background: #ffffff;
+	border-radius: 1px;
+}
+
+.rp-main-infra-sec-icon-block {
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.rp-main-infra-sec-icon-block--1 > h5 {
+	margin-top: 34px;
+	font-weight: 500;
+	font-size: 43px;
+	line-height: 51px;
+	letter-spacing: -0.02em;
+}
+.rp-main-infra-sec-icon-block--1 > p {
+	margin-top: 14px;
+	font-weight: 500;
+	font-size: 23.1975px;
+	line-height: 27px;
+	letter-spacing: -0.02em;
+}
+
+.rp-main-onboard-sec > p {
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 18px;
+	letter-spacing: -0.02em;
+	color: #e82232;
+	margin-bottom: 88px;
+	text-align: center;
+}
+
+.rp-main-onboard-sec-cnames {
+	display: grid;
+	place-items: center;
+	gap: 40px;
+	padding: 0 100px;
+	grid-template-columns: repeat(5, 1fr);
+}
+
+.rp-main-onboard-sec-cnames > img {
+	width: 188px;
+	height: 30px;
+}
+
+.rp-main-getintouch-sec {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.rp-main-getintouch-sec-1 {
+	background-color: #0e3466;
+	display: grid;
+	place-items: center;
+	padding: 173px 140px;
+}
+.rp-main-getintouch-sec-1 > h2 {
+	color: var(--secondary);
+	font-weight: 500;
+	font-size: 4em;
+	line-height: 85px;
+	position: relative;
+	margin-bottom: 38px;
+}
+.rp-main-getintouch-sec-1 > h2::after {
+	content: "";
+	position: absolute;
+	width: 196px;
+	height: 5px;
+	background-color: var(--secondary);
+	bottom: 0;
+	left: 0;
+	border-radius: 8px;
+}
+
+.rp-main-getintouch-sec-1 > input {
+	width: 550px;
+	height: 68px;
+	background: #ffffff;
+	border-radius: 8px;
+	outline: none;
+	font-size: 20px;
+	padding-left: 22px;
+	margin-bottom: 24px;
+	border: none;
+}
+
+#full-name[value="SEARCH WORDS"] {
+	padding-left: 48px;
+	background: url(https://material.io/icons/static/images/icons-180x180.png)
+		no-repeat 8px center;
+}
+
+.rp-main-getintouch-sec-1 > input:nth-last-child(2) {
+	height: 135px;
+}
+
+.rp-main-getintouch-sec-1 > button {
+	width: 195px;
+	height: 61px;
+	background: #ec2232;
+	border-radius: 41px;
+	outline: none;
+	border: none;
+	color: var(--secondary);
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: -0.02em;
+	margin-top: 10px;
+}
+
+.rp-main-getintouch-sec-2 {
+	background-color: #f8f8f8;
+	position: relative;
+}
+
+.rp-main-getintouch-sec-2-container {
+	height: 700px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.15));
+	position: absolute;
+	left: -60px;
+	top: 146px;
+}
+.rp-main-getintouch-sec-2-content {
+	padding: 43px;
+	background-color: var(--secondary);
+}
+
+.rp-main-getintouch-sec-2-content-1,
+.rp-main-getintouch-sec-2-content-2,
+.rp-main-getintouch-sec-2-content-3 {
+	border-bottom: 1px solid #c4c4c4;
+	padding-bottom: 42px;
+	margin-bottom: 20px;
+}
+
+.rp-main-getintouch-sec-2-content-3 {
+	border-bottom: none;
+}
+
+.rp-main-getintouch-sec-2-map > img {
+	width: 100%;
+	height: 100%;
+}
+
+.rp-footer-container {
+	background: #181818;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	place-items: center;
+	padding: 100px 0px;
+	color: var(--secondary);
+}
+
+.rp-footer-col-1 > ul {
+	list-style: none;
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 70px;
+	letter-spacing: -0.02em;
+}
+.rp-footer-col-1 > ul > li {
+	margin-bottom: 20px;
+}
+
+.rp-footer-col-2 > h2 {
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 65px;
+}
+
+.rp-footer-col-2 > ul {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.rp-footer-col-2 > ul > li {
+	margin-bottom: 16px;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 48px;
+}
+
+.rp-footer-col-3 > ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	place-items: end;
+}
+
+.rp-footer-col-3 > p {
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 23px;
+	letter-spacing: -0.03em;
+	margin-top: 44px;
 }
